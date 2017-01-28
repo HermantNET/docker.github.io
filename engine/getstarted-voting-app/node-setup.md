@@ -18,6 +18,7 @@ run some basic commmands to interact with the machines.
 The Docker Machine command to create a local virtual machine is:
 
 ```
+// Replace 'virtualbox' with 'hyperv' if using Docker for Windows.
 docker-machine create --driver virtualbox <HOSTNAME>
 ```
 
